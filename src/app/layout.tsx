@@ -43,6 +43,11 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  appleWebApp: {
+    title: 'TG SMART',
+    // Home-screen launch keeps Safari chrome; standalone would drop the back button.
+    capable: false,
+  },
   openGraph: {
     type: 'website',
     locale: 'en_IN',
